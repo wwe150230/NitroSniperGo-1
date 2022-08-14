@@ -7,7 +7,7 @@
 
 <a href="https://www.buymeacoffee.com/Vedza" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="32" width="140"></a>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Bendersz/NitroSniperGo/tree/heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Bendersz/NitroSniperGo)
 <!-- <a href="https://repl.it/github/Bendersz/NitroSniperGo" target="_blank"><img src="https://repl.it/badge/github/Vedza/NitroSniperGo" alt="Deploy on Repl.it" height="32" width="160"></a>-->
 
 Discord Nitro sniper and Giveaway joiner in Go.
@@ -97,7 +97,7 @@ Edit `settings.json`
 
 You have multiple choices to run the sniper :
 
-- [Deploy on Heroku](https://heroku.com/deploy?template=https://github.com/Bendersz/NitroSniperGo/tree/heroku) (Free 24/7)
+- [Deploy on Heroku](https://heroku.com/deploy?template=https://github.com/Bendersz/NitroSniperGo) (Free 24/7)
     * Deploy
     * Resources -> enable sniper
     * See logs in More -> View logs
